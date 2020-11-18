@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding:0;
+    }
+    body {
+    background-image:url(https://img.freepik.com/free-vector/abstract-halftone-background_23-2148583453.jpg?size=626&ext=jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    }
+    .container {
+    display: flex;
+    }
+    .header { 
+    background-color:darkgray;
+    padding:50px;
+    text-align:center;
+    color:snow;
+    font-size:15px;
+    height:100px;
+    margin:20px;
+    }
+    .header h1 p {
+    text-shadow: 1px 1px  black;
+    margin:10px;
+    }
+    .footer {
+    position:fixed;
+    background-color:darkgray;
+    padding:10px;
+    text-align:center;
+    color:snow;
+    font-size:15px;
+    height:30px;
+    width:98.6%;
+    bottom: 0;
+    left:0;
+    margin-top:20px ;
+    }
+    .cart {
+    height:20px;
+    }
+    .navbar {
+    display: flex;
+    background-color: #333;
+    position: sticky;
+    top:0px;
+    }
+    .navbar a {
+    color:white;
+    text-decoration:none ;
+    padding:5px 160px;
+    }
+    .navbar a:hover{
+    background-color: white;
+    color:black;
+    }
+    .item {  
+    flex-grow:1;
+    width:500px;
+    color:snow;
+    text-align:center;
+    background-color: darkgray;
+    padding:5px;
+    margin :10px;
+    margin-bottom: 100px;
+    }
+    .item + .item {
+    margin-left:2%;
+    }
+    img{
+    height: 200px;
+    margin:10px;
+    }
+    img:hover{
+    height: 250px;
+    transition-duration: 2s;
+    transition-timing-function: ease in ;
+    }
